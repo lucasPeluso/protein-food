@@ -1,0 +1,67 @@
+import React from 'react';
+
+import HomeImg from '../assets/home-img.jpg'
+import MeatImgSmall from '../assets/meat-small.jpg'
+import DriedFruitsImgSmall from '../assets/dried-fruits-small.jpg'
+import CheeseImgSmall from '../assets/cheese-small.jpg'
+import '../styles/components/pages/Home.css'
+
+const Home = () => {
+    return (
+        <div>
+            <div className='home'>
+                <div className="home__flex container">
+                    <div className='home__text'>
+                        <h4 className='home__welcome'>Welcome to</h4>
+                        <h1 className='home__title'>PROTEIN FOOD LLC</h1>
+                        <h4 className='home__global'>Global Food Trading</h4>
+                    </div>
+                    <div className="home__img">
+                        <img src={HomeImg} alt="Protein Food" />
+                    </div>
+                    <hr className='home__hr'/>
+                </div>
+            </div>
+            <div className="home-products">
+                <div className="home-products__rectangle"></div>
+                <div className="home-products__container container">
+                    <p>
+                        We are a well-recognized <span className='bold'>international trading company</span> with base 
+                        in the United States of America and South America <span className='bold'>specializing in importing and exporting food</span> like:
+                    </p>
+                    <div className="home-products__flex">
+                        <div className="home-products__product">
+                            <img className='home-products__product-img' src={MeatImgSmall} alt="Meat Products" />
+                        </div>
+                        <div className="home-products__product">
+                            <img className='home-products__product-img' src={DriedFruitsImgSmall} alt="Meat Products" />
+                        </div>
+                        <div className="home-products__product">
+                            <img className='home-products__product-img' src={CheeseImgSmall} alt="Meat Products" />
+                        </div>
+                    </div>
+                    <div className="home-products__flex-text">
+                        <p>The products we sell are obtained through <span className='bold'>significant producers</span> around the world.</p>
+                        <p>
+                            We are <span className='bold'>experts</span> in the management of <span className='bold'>international sales and purchases</span> as 
+                            well as shipments to and from the main consumer markets.
+                        </p>
+                        <p>
+                            Our <span className='bold'>aim is to establish and maintain strong partnerships</span> with our suppliers and customers,
+                            always providing our commitment to traceability and adding value to our service to ensure the
+                            reception of <span className='bold'>your order on time and in good condition.</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="home-btn">
+                <p>For more information:</p>
+                <a class="btn" href="#contact">
+                    Contact Us
+                </a>
+            </div>
+        </div>
+    )
+}   
+
+export default Home

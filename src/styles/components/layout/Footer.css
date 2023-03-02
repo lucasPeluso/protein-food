@@ -1,0 +1,61 @@
+.contact__email {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.footer {
+    background-color: var(--blue-dark);
+    padding: 30px 16px;
+}
+
+.footer a {
+    text-decoration: none;
+    transition: all .5s ease-in-out;
+}
+
+.footer a:hover {
+    color: var(--yellow);
+}
+
+.footer__author {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.footer__author-p {
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.footer__flex {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.footer__flex-contact-join {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.footer__flex-links {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.footer__flex-links a{
+    color: var(--white);
+    font-size: 12px;
+    line-height: 16px;
+    text-decoration: underline;
+}
+
+.logo {
+    width: 96px;
+    height: 49px;
+}

@@ -31,6 +31,7 @@ const Home = () => {
                     </p>
                     <div className="home-products__flex">
                         <div className="home-products__product">
+                            <h4 className="home-products__product-title">MEAT</h4>
                             <img className='home-products__product-img' src={MeatImgSmall} alt="Meat Products" />
                             <div className="home-products__readmore">
                                 <p className="home-products__readmore-p">Read more</p>
@@ -40,6 +41,7 @@ const Home = () => {
                             </div>
                         </div>
                         <div className="home-products__product">
+                            <h4 className="home-products__product-title">DRIED FRUITS AND NUTS</h4>
                             <img className='home-products__product-img' src={DriedFruitsImgSmall} alt="Meat Products" />
                             <div className="home-products__readmore">
                                 <p className="home-products__readmore-p">Read more</p>
@@ -49,6 +51,7 @@ const Home = () => {
                             </div>
                         </div>
                         <div className="home-products__product">
+                            <h4 className="home-products__product-title">DAIRY PRODUCTS</h4>
                             <img className='home-products__product-img' src={CheeseImgSmall} alt="Meat Products" />
                             <div className="home-products__readmore">
                                 <p className="home-products__readmore-p">Read more</p>

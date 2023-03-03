@@ -79,6 +79,10 @@
     border-radius: 16px;
 }
 
+.home-products__product-title {
+    margin-bottom: 16px;
+}
+
 .home-products__readmore {
     position: absolute;
     bottom: 20px;

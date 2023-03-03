@@ -32,12 +32,30 @@ const Home = () => {
                     <div className="home-products__flex">
                         <div className="home-products__product">
                             <img className='home-products__product-img' src={MeatImgSmall} alt="Meat Products" />
+                            <div className="home-products__readmore">
+                                <p className="home-products__readmore-p">Read more</p>
+                                <svg width="9" height="8" viewBox="0 0 9 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M0 0.94L0.946309 0L4.97315 4L0.946309 8L0 7.06L3.07383 4L0 0.94ZM4.02685 0.94L4.97315 0L9 4L4.97315 8L4.02685 7.06L7.10067 4L4.02685 0.94Z" fill="#F5F4F8"/>
+                                </svg>
+                            </div>
                         </div>
                         <div className="home-products__product">
                             <img className='home-products__product-img' src={DriedFruitsImgSmall} alt="Meat Products" />
+                            <div className="home-products__readmore">
+                                <p className="home-products__readmore-p">Read more</p>
+                                <svg width="9" height="8" viewBox="0 0 9 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M0 0.94L0.946309 0L4.97315 4L0.946309 8L0 7.06L3.07383 4L0 0.94ZM4.02685 0.94L4.97315 0L9 4L4.97315 8L4.02685 7.06L7.10067 4L4.02685 0.94Z" fill="#F5F4F8"/>
+                                </svg>
+                            </div>
                         </div>
                         <div className="home-products__product">
                             <img className='home-products__product-img' src={CheeseImgSmall} alt="Meat Products" />
+                            <div className="home-products__readmore">
+                                <p className="home-products__readmore-p">Read more</p>
+                                <svg width="9" height="8" viewBox="0 0 9 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M0 0.94L0.946309 0L4.97315 4L0.946309 8L0 7.06L3.07383 4L0 0.94ZM4.02685 0.94L4.97315 0L9 4L4.97315 8L4.02685 7.06L7.10067 4L4.02685 0.94Z" fill="#F5F4F8"/>
+                                </svg>
+                            </div>
                         </div>
                     </div>
                     <div className="home-products__flex-text">

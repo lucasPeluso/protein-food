@@ -78,7 +78,7 @@ small {
 
 .btn {
     border: 2px solid var(--blue-dark);
-    border-radius: 8px;
+    border-radius: 16px;
     cursor: pointer;
     padding: 20px 40px;
     letter-spacing: 1px;

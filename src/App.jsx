@@ -21,10 +21,10 @@ function App() {
       <Navbar />
       <Router>
         <Routes>
+          <Route path="/" exact element={<Home />} />
           <Route path="/AboutUs" exact element={<AboutUs />} />
-          <Route path="/Home" exact element={<Home />} />
           <Route path="/Values" exact element={<Values />} />
-          <Route path="/" exact element={<Markets />} />
+          <Route path="/Markets" exact element={<Markets />} />
         </Routes>
         <ButtonContact />
         <Footer />

@@ -1,6 +1,6 @@
 import React from 'react';
 
-import ValuesImg from '../assets/Values-img.jpg'
+import ValuesImg from '../assets/values-img.jpg'
 import '../styles/components/pages/Values.css'
 
 const Values = () => {

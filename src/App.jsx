@@ -1,5 +1,5 @@
 import React from 'react'
-import { Route, Routes } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import { useState } from 'react'
 import './App.css'
 
@@ -19,16 +19,16 @@ function App() {
   return (
     <>
       <Navbar />
-
+      <Router>
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/AboutUs" element={<AboutUs />} />
-          <Route path="/Values" element={<Values />} />
-          <Route path="/Markets" element={<Markets />} />
+          <Route path="/" exact element={<AboutUs />} />
+          <Route path="/Home" element={<Home />} />
+          <Route path="/Values" exact element={<Values />} />
+          <Route path="/Markets" exact element={<Markets />} />
         </Routes>
         <ButtonContact />
         <Footer />
-
+      </Router>
     </>
   )
 }

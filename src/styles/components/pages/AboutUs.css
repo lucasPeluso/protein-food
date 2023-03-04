@@ -1,0 +1,16 @@
+.aboutus-div {
+    padding-top: var(--header-height-sm);
+    position: relative;
+}
+
+.aboutus-flex {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 40px 16px 0;
+}
+
+.aboutus-img {
+    min-height: 320px;
+    object-fit: cover;
+}

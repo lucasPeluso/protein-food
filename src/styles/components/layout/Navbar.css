@@ -1,9 +1,10 @@
 
 header{
-    position: absolute;
+    position: fixed;
     width: 100%;
     background-color: var(--blue-dark);
     padding: 8px;
+    z-index: 100000;
 }
 
 .header-container{

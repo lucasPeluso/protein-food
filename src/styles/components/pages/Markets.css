@@ -1,0 +1,34 @@
+.markets-div {
+    padding-top: var(--header-height-sm);
+    position: relative;
+}
+
+.markets-flags__countries {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.markets-flags__group {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.markets-flags__groups {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.markets-img {
+    min-height: 420px;
+    object-fit: cover;
+}
+
+.markets-text {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 30px 16px 20px;
+}

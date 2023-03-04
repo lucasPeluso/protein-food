@@ -75,12 +75,6 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-            <div class="home-btn">
-                <p>For more information:</p>
-                <a class="btn" href="#contact">
-                    Contact Us
-                </a>
-            </div>
         </div>
     )
 }   

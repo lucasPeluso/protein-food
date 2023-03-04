@@ -1,5 +1,5 @@
 import React from 'react'
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { Route, Routes } from 'react-router-dom';
 import { useState } from 'react'
 import './App.css'
 
@@ -19,7 +19,7 @@ function App() {
   return (
     <>
       <Navbar />
-      <Router>
+
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/AboutUs" element={<AboutUs />} />
@@ -28,7 +28,7 @@ function App() {
         </Routes>
         <ButtonContact />
         <Footer />
-      </Router>
+
     </>
   )
 }

@@ -30,18 +30,18 @@
 .home__text {
     display: flex;
     flex-direction: column;
-    gap: 4px;
     color: var(--blue-dark);
 }
 
 .home__title {
-    font-size: 28px;
-    line-height: 28px;
+    margin: 16px 0 8px;
+    font-size: 2.5rem;
+    line-height: 2.5rem;
     letter-spacing: 0;
 }
 
 .home__subtitle {
-    font-size: 24px;
+    font-size: 28px;
     line-height: 28px;
     font-weight: 400;
     letter-spacing: 0;
@@ -49,6 +49,8 @@
 
 .home__welcome {
     font-size: 24px;
+    line-height: 24px;
+    font-weight: 400;
     color: var(--gray);
 }
 

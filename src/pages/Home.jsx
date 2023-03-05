@@ -14,9 +14,9 @@ const Home = () => {
             <div className='home'>
                 <div className="home__flex container">
                     <div className='home__text'>
-                        <h4 className='home__welcome'>Welcome to</h4>
+                        <h4 className='home__welcome'>WELCOME TO</h4>
                         <h1 className='home__title'>PROTEIN FOOD</h1>
-                        <h2 className='home__subtitle'>Company LLC</h2>
+                        <h2 className='home__subtitle'>Company LLC.</h2>
                         <h4 className='home__global'>Global Food Trading</h4>
                     </div>
                     <div className="home__img">

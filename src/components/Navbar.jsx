@@ -12,7 +12,7 @@ const Navbar = () => {
             <section className="header-container container">
                 <div className='header-container__logo-menu'>
                     <div className="logo">
-                        <a href="#home">
+                        <a href="/">
                             <img src={Logo} alt="Logo Protein Food" />
                         </a>
                     </div>
@@ -25,12 +25,12 @@ const Navbar = () => {
                         </svg>                                      */}
                     </button>
                     <nav className="menu">
-                        <a data-nav="home" href="#home">Home</a>
-                        <a data-nav="mision" href="#mision">About Us</a>
-                        <a data-nav="co-founders" href="#values">Values</a>
-                        <a data-nav="co-founders" href="#values">Markets</a>
-                        <a data-nav="co-founders" href="#values">Products</a>
-                        <a data-nav="contact" href="#contact">Contact</a>
+                        <a data-nav="home" href="/">Home</a>
+                        <a data-nav="mision" href="/aboutus">About Us</a>
+                        <a data-nav="co-founders" href="/values">Values</a>
+                        <a data-nav="co-founders" href="/markets">Markets</a>
+                        <a data-nav="co-founders" href="/products">Products</a>
+                        <a data-nav="contact" href="/contact">Contact</a>
                     </nav>
                 </div>
                 <div className='switch'>

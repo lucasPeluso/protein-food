@@ -10,7 +10,7 @@ const Contact = () => {
                 <hr className='contact-hr'/>
                 <input className="contact__input" type="text" name="name" placeholder="Enter your name" title="El nombre sólo acepta letras y espaciones en blanco" pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$" required />
                 <input className="contact__input" type="email" name="email" placeholder="Enter your email" title="Email incorrecto" pattern="^[a-z0-9]+(\.[_a-z0-9]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,15})$" required />
-                <textarea className="contact__input" name="comments" cols="30" rows="10" placeholder="Enter your comment" required></textarea>
+                <textarea className="contact__input" name="comments" cols="24" rows="10" placeholder="Enter your comment" required></textarea>
                 <div className="modal__contact-loader text-center none">
                     {/* <img src="assets/loader.svg" alt="Sending..." /> */}
                 </div>

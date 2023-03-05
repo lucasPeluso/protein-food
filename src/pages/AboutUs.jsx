@@ -6,7 +6,7 @@ import '../styles/components/pages/AboutUs.css'
 const AboutUs = () => {
     return (
         <div>
-            <div className='aboutus-div'>
+            <div className='pages-div'>
                 <img className='aboutus-img' src={AboutUsImg} alt="About Us" />
                 <div className='pages-flex'>
                     <h1 className='pages-titles'>ABOUT US</h1>

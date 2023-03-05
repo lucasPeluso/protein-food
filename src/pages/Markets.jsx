@@ -20,7 +20,7 @@ import '../styles/components/pages/Markets.css'
 const Markets = () => {
     return (
         <div>
-            <div className='markets-div'>
+            <div className='pages-div'>
                 <img className='markets-img' src={MarketsImg} alt="Markets" />
                 <div className='pages-flex'>
                     <h1 className='pages-titles'>MARKETS</h1>

@@ -1,8 +1,3 @@
-.markets-div {
-    padding-top: var(--header-height-sm);
-    position: relative;
-}
-
 .markets-flags__countries {
     display: flex;
     gap: 20px;

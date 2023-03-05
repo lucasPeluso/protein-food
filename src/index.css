@@ -76,6 +76,18 @@ small {
     font-weight: 700;
 }
 
+.border-pink {
+    border-left: 8px solid var(--pink);
+}
+
+.border-yellow {
+    border-left: 8px solid var(--yellow);
+}
+
+.border-blue {
+    border-left: 8px solid var(--blue-light);
+}
+
 .btn {
     border: 2px solid var(--blue-dark);
     border-radius: 16px;
@@ -101,9 +113,21 @@ small {
   max-width: 1200px;
 }
 
+.color-blue-light {
+    color: var(--blue-light);
+  }
+
+.color-pink {
+    color: var(--pink);
+  }
+
 .color-white {
   color: var(--white);
 }
+
+.color-yellow {
+    color: var(--yellow);
+  }
 
 .home-btn {
     display: flex;
@@ -111,6 +135,11 @@ small {
     align-items: center;
     gap: 8px;
     margin: 60px 0;
+}
+
+.pages-div {
+    padding-top: var(--header-height-sm);
+    position: relative
 }
 
 .pages-flex {
@@ -132,11 +161,10 @@ small {
 }
 
 .pages-titles {
-    font-size: 20px;
+    font-size: 24px;
     line-height: 24px;
     color: var(--white)
 }
-
 
 .text-start {
   text-align: start;

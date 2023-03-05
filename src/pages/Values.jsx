@@ -1,21 +1,41 @@
 import React from 'react';
 
 import ValuesImg from '../assets/values-img.jpg'
+import TicSVG from '../assets/tic.svg'
 import '../styles/components/pages/Values.css'
+
 
 const Values = () => {
     return (
         <div>
-            <div className='values-div'>
+            <div className='pages-div'>
                 <img className='values-img' src={ValuesImg} alt="Values" />
                 <div className='pages-flex'>
                     <h1 className='pages-titles'>OUR VALUES</h1>
-                    <p className='pages-text'>Respect for individuals</p>
-                    <p className='pages-text'>Completely focused on Customer Service</p>
-                    <p className='pages-text'>Striving for excellence</p>
-                    <p className='pages-text'>Honesty and Solidarity</p>
-                    <p className='pages-text'>Patience and Camaraderie</p>
-                    <p className='pages-text'>Effectiveness</p>
+                    <div className="values-tic">
+                        <img src={TicSVG} alt="Tic" />                        
+                        <p className='pages-text'>Respect for individuals</p>
+                    </div>
+                    <div className="values-tic">
+                        <img src={TicSVG} alt="Tic" />
+                        <p className='pages-text'>Completely focused on Customer Service</p>
+                    </div>
+                    <div className="values-tic">
+                        <img src={TicSVG} alt="Tic" />
+                        <p className='pages-text'>Striving for excellence</p>
+                    </div>
+                    <div className="values-tic">
+                        <img src={TicSVG} alt="Tic" />
+                        <p className='pages-text'>Honesty and Solidarity</p>
+                    </div>
+                    <div className="values-tic">
+                        <img src={TicSVG} alt="Tic" />
+                        <p className='pages-text'>Patience and Camaraderie</p>
+                    </div>
+                    <div className="values-tic">
+                        <img src={TicSVG} alt="Tic" />
+                        <p className='pages-text'>Effectiveness</p>
+                    </div>
                 </div>
             </div>
             <div className="values-flex">

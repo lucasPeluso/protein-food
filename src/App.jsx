@@ -11,6 +11,7 @@ import Home from './pages/Home'
 import AboutUs from './pages/AboutUs'
 import Values from './pages/Values'
 import Markets from './pages/Markets'
+import Products from './pages/Products'
 
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
           <Route path="/AboutUs" exact element={<AboutUs />} />
           <Route path="/Values" exact element={<Values />} />
           <Route path="/Markets" exact element={<Markets />} />
+          <Route path="/Products" exact element={<Products />} />
         </Routes>
         <ButtonContact />
         <Footer />

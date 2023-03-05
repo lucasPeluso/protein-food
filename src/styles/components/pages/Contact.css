@@ -86,29 +86,6 @@
     background-color: var(--blue-dark);
 }
 
-.modal-close {
-    position: absolute;
-    top: 1rem;
-    right: 1rem;
-    cursor: pointer;
-}
-
-.modal-close svg {
-    width: 1rem;
-    height: 1rem;
-}
-
-.modal[id="contact"]:target {
-    opacity: 1;
-    pointer-events: auto;
-}
-
-
-.modal#response:target {
-    opacity: 1;
-    pointer-events: auto;
-}
-
 
 @media screen and (min-width: 768px) {
     .modal__contact {

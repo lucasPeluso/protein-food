@@ -1,5 +1,7 @@
 import React from 'react';
 
+import ButtonContact from '../components/ButtonContact';
+
 import ProductsImg from '../assets/products-img.jpg'
 import MeatImg from '../assets/meat-img.jpg'
 import DriedFruitsImg from '../assets/driedfruits-img.jpg'
@@ -110,6 +112,7 @@ const Products = () => {
                     <img className="product-img" src={DairyProductsImg} alt="Dairy Products" />
                 </div>
             </div>
+            <ButtonContact />
         </div>
     )
 }   

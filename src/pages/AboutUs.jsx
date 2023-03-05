@@ -1,5 +1,7 @@
 import React from 'react';
 
+import ButtonContact from '../components/ButtonContact';
+
 import AboutUsImg from '../assets/aboutus-img.jpg'
 import '../styles/components/pages/AboutUs.css'
 
@@ -41,7 +43,9 @@ const AboutUs = () => {
                     committing themselves to offer us the best products.
                 </p>
             </div>
+            <ButtonContact />
         </div>
+        
     )
 }   
 

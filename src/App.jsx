@@ -5,17 +5,16 @@ import './App.css'
 
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
-import ButtonContact from './components/ButtonContact';
 
 import Home from './pages/Home'
 import AboutUs from './pages/AboutUs'
 import Values from './pages/Values'
 import Markets from './pages/Markets'
 import Products from './pages/Products'
+import Contact from './pages/Contact'
 
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
@@ -27,8 +26,8 @@ function App() {
           <Route path="/Values" exact element={<Values />} />
           <Route path="/Markets" exact element={<Markets />} />
           <Route path="/Products" exact element={<Products />} />
+          <Route path="/Contact" exact element={<Contact />} />
         </Routes>
-        <ButtonContact />
         <Footer />
       </Router>
     </>

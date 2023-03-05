@@ -1,8 +1,12 @@
 import React from 'react';
 
+import ButtonContact from '../components/ButtonContact';
+
 import ValuesImg from '../assets/values-img.jpg'
 import TicSVG from '../assets/tic.svg'
 import '../styles/components/pages/Values.css'
+
+
 
 
 const Values = () => {
@@ -84,6 +88,7 @@ const Values = () => {
                     </div>
                 </div>
             </div>
+            <ButtonContact />
         </div>
     )
 }   

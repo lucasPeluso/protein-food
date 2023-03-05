@@ -1,5 +1,7 @@
 import React from 'react';
 
+import ButtonContact from '../components/ButtonContact';
+
 import HomeImg from '../assets/home-img.jpg'
 import MeatImgSmall from '../assets/meat-small.jpg'
 import DriedFruitsImgSmall from '../assets/dried-fruits-small.jpg'
@@ -75,6 +77,7 @@ const Home = () => {
                     </div>
                 </div>
             </div>
+            <ButtonContact />
         </div>
     )
 }   

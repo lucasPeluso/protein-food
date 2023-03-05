@@ -1,0 +1,117 @@
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: var(--header-height-sm);
+    height: 100vh;
+    margin-bottom: 40px;
+}
+
+.contact-btn {
+    border: .5px solid var(--blue-dark);
+    border-radius: 8px;
+    cursor: pointer;
+    padding: 14px 28px;
+    letter-spacing: 0px;
+    font-weight: 400;
+    font-family: var(--font);
+    text-align: center;
+    text-decoration: none;
+    background-color: var(--white);
+    color:  var(--blue-dark);
+
+    transition: all .3s ease-out;
+    gap: 8px;
+}
+
+.contact-btn:hover {
+    color: var(--white);
+    background-color: var(--blue-dark);
+}
+
+.contact-btn__container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 16px;
+    padding: 16px;
+    margin: 0 16px;
+    border: 8px solid #dfdfdf;
+    box-shadow: 83px 83px 47px rgba(22, 19, 32, 0.01), 47px 47px 40px rgba(22, 19, 32, 0.05), 21px 21px 29px rgba(22, 19, 32, 0.09), 5px 5px 16px rgba(22, 19, 32, 0.1), 0px 0px 0px rgba(22, 19, 32, 0.1);
+    border-radius: 16px;
+}
+
+.contact-hr {
+    width: 100%;
+}
+
+.contact-title {
+    color: var(--blue-dark);
+    font-size: 24px;
+    line-height: 24px;
+    margin-top: 16px;
+}
+
+.modal__response {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    padding: 32px;
+    background-color: var(--blue-dark);
+}
+
+.contact__input {
+    border: none;
+    border-bottom: 1px solid #dfdfdf;
+    background-color: var(--white);
+    color: var(--white);
+    padding: 8px;
+    font-family: var(--font);
+}
+
+.contact__input:focus {
+    outline: none !important;
+    border-radius: 8px ;
+    border: 1px solid var(--blue-dark);
+}
+
+.modal__input:active {
+    background-color: var(--blue-dark);
+}
+
+.modal-close {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    cursor: pointer;
+}
+
+.modal-close svg {
+    width: 1rem;
+    height: 1rem;
+}
+
+.modal[id="contact"]:target {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+
+.modal#response:target {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+
+@media screen and (min-width: 768px) {
+    .modal__contact {
+        width: 600px;
+    }
+}

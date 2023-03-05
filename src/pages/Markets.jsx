@@ -1,5 +1,7 @@
 import React from 'react';
 
+import ButtonContact from '../components/ButtonContact';
+
 import MarketsImg from '../assets/markets-img.jpg'
 import ArgentinaSVG from '../assets/Argentina.svg'
 import BrazilSVG from '../assets/Brazil.svg'
@@ -123,6 +125,7 @@ const Markets = () => {
                     </div>
                 </div>
             </div>
+            <ButtonContact />
         </div>
     )
 }   

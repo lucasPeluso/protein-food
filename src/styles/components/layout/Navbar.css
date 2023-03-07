@@ -17,7 +17,6 @@ header{
 .header-container__logo-menu {
     display: flex;
     align-items: center;
-    gap: 16px;
     height: 80px;
 }
 
@@ -26,50 +25,66 @@ header{
     height: 40px;
 }
 
-.menu-btn {
-    background-color: var(--blue-dark);
-    border: 0;
-    cursor: pointer;
-    height: 17px;
-}
-
-.menu-icon {
-    fill: var(--white);
-}
-
 .menu {
     position: fixed;
     left: 0;
-    bottom: 4rem;
+    top: var(--header-heigth-sm);
     width: 100%;
+    height: auto;
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
+    gap: 6px;
     background-color: var(--blue-dark);
-    opacity: 0;
-    pointer-events: none;
-    transition: opacity .5s ease;
-    z-index: 100;
+
+    list-style: none;
+    z-index: 10000;
+    transform: translateX(-100%);
+    transition: .3s ease all;
+    padding: 20px;
+    padding-inline-start: 8px;
 }
 
-.menu.is-active {
-    opacity: 1;
-    pointer-events: auto;
+.menu.open {
+    transform: translateX(0) !important;
 }
 
 .menu a {
-    padding: 1rem;
-    font-size: 18px;
-    font-weight: 700;
+    font-size: 16px;
+    font-weight: 400;
     letter-spacing: 1px;
-    text-align: center;
+    text-align: start;
     text-decoration: none;
-    color: var(--yellow);
+    color: var(--white);
+    transition: .2s;
 }
 
-.menu a:hover{
-    transition: .2s;
-    color: var(--blue-dark);
-    background-color: var(--blue-dark);
+.menu-toggle {
+    display: flex;
+    flex-direction: column;
+    margin-left: 24px;
+    cursor: pointer;
+}
+
+.menu-toggle span {
+    width: 30px;
+    height: 4px;
+    background: var(--white);
+    margin-bottom: 5px;
+    transform-origin: 6px 0px;
+    transition: all .2s linear;
+}
+
+.menu-toggle.open > span {
+    transform: rotate(45deg) translate(0px, 0px);
+}
+
+.menu-toggle.open > span:nth-child(2) {
+    display: none;
+}
+
+.menu-toggle.open > span:nth-child(3) {
+    transform: rotate(-45deg) translate(-5px, 1px);
 }
 
 .none {
@@ -104,6 +119,8 @@ header{
     .header-container__logo-menu {
         width: 100%;
         height: 71px;
+        align-items: flex-start;
+        gap: 20px;
     }
 
     .logo-a {
@@ -124,6 +141,7 @@ header{
     .menu {
         position: static;
         width: 100%;
+        height: 100%;
         flex-direction: row;
         justify-content: center;
         gap: 16px;
@@ -168,6 +186,10 @@ header{
     .menu a:hover {
         background-color: transparent;
         color: var(--white);
+    }
+
+    .menu-toggle {
+        display: none;
     }
 
     .switch {

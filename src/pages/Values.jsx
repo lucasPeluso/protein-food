@@ -45,7 +45,7 @@ const Values = () => {
             <div className="values-flex">
                 <div className="values-value">
                     <div className="values-value__text">
-                        <h2 className="values-value__title color-pink">VISION</h2>
+                        <h2 className="values-value__title">VISION</h2>
                         <hr className='values-hr' />
                         <div className='values-value__text-p'>
                             <p>
@@ -60,7 +60,7 @@ const Values = () => {
                 </div>
                 <div className="values-value">
                     <div className="values-value__text">
-                        <h2 className="values-value__title color-yellow">MISSION</h2>
+                        <h2 className="values-value__title">MISSION</h2>
                         <hr className='values-hr' />
                         <div className='values-value__text-p'>
                             <p>
@@ -72,7 +72,7 @@ const Values = () => {
                 </div>
                 <div className="values-value">
                     <div className="values-value__text">
-                        <h2 className="values-value__title color-blue-light">OBJECTIVES</h2>
+                        <h2 className="values-value__title">OBJECTIVES</h2>
                         <hr className='values-hr' />
                         <div className='values-value__text-p'>
                             <p>

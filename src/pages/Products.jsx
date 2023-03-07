@@ -14,8 +14,8 @@ const Products = () => {
         <div>
             <div className='pages-div'>
                 <img className='products-img' src={ProductsImg} alt="Products" />
-                <div className='pages-flex'>
-                    <h1 className='pages-titles'>PRODUCTS</h1>
+                <div className='pages-flex container'>
+                    <h1 className='pages-titles animate__animated animate__slideInLeft'>PRODUCTS</h1>
                     <p className='pages-text bold'>
                         MEAT
                     </p>
@@ -28,7 +28,7 @@ const Products = () => {
                 </div>         
             </div>
             <h2 className="products-title">PRODUCTS</h2>
-            <div className="products-items">
+            <div className="products-items container">
                 <div className="products-item">
                     <div className="products-item__div border-pink">
                         <h3 className="products-item__title color-pink">MEAT</h3>

@@ -10,9 +10,9 @@ const AboutUs = () => {
         <div>
             <div className='pages-div'>
                 <img className='aboutus-img' src={AboutUsImg} alt="About Us" />
-                <div className='pages-flex'>
-                    <h1 className='pages-titles'>ABOUT US</h1>
-                    <p className='pages-text'>
+                <div className='pages-flex container'>
+                    <h1 className='pages-titles animate__animated animate__slideInLeft'>ABOUT US</h1>
+                    <p className='pages-text width-70'>
                         Protein Food Company is an 
                         <span className='bold'> International Trading Company </span> 
                         that was born with the purpose of adding extra value to importers 
@@ -23,7 +23,7 @@ const AboutUs = () => {
                     </p>
                 </div>
             </div>
-            <div className="aboutus-flex">
+            <div className="aboutus-flex container">
                 <p>
                     Our company has a 
                     <span className='bold'> great team of well-known professionals </span>

@@ -14,8 +14,8 @@ const Values = () => {
         <div>
             <div className='pages-div'>
                 <img className='values-img' src={ValuesImg} alt="Values" />
-                <div className='pages-flex'>
-                    <h1 className='pages-titles'>OUR VALUES</h1>
+                <div className='pages-flex container'>
+                    <h1 className='pages-titles animate__animated animate__slideInLeft'>OUR VALUES</h1>
                     <div className="values-tic">
                         <img src={TicSVG} alt="Tic" />                        
                         <p className='pages-text'>Respect for individuals</p>
@@ -45,7 +45,7 @@ const Values = () => {
             <div className="values-flex">
                 <div className="values-value">
                     <div className="values-value__text">
-                        <h2 className="values-value__title">VISION</h2>
+                        <h2 className="values-value__title color-pink">VISION</h2>
                         <hr className='values-hr' />
                         <div className='values-value__text-p'>
                             <p>
@@ -60,7 +60,7 @@ const Values = () => {
                 </div>
                 <div className="values-value">
                     <div className="values-value__text">
-                        <h2 className="values-value__title">MISSION</h2>
+                        <h2 className="values-value__title color-yellow">MISSION</h2>
                         <hr className='values-hr' />
                         <div className='values-value__text-p'>
                             <p>
@@ -72,7 +72,7 @@ const Values = () => {
                 </div>
                 <div className="values-value">
                     <div className="values-value__text">
-                        <h2 className="values-value__title">OBJECTIVES</h2>
+                        <h2 className="values-value__title color-blue-light">OBJECTIVES</h2>
                         <hr className='values-hr' />
                         <div className='values-value__text-p'>
                             <p>

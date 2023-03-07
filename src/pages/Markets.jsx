@@ -24,12 +24,12 @@ const Markets = () => {
         <div>
             <div className='pages-div'>
                 <img className='markets-img' src={MarketsImg} alt="Markets" />
-                <div className='pages-flex'>
-                    <h1 className='pages-titles'>MARKETS</h1>
-                    <p className='pages-text'>
+                <div className='pages-flex container'>
+                    <h1 className='pages-titles animate__animated animate__slideInLeft'>MARKETS</h1>
+                    <p className='pages-text width-70'>
                         At <span className='bold'>Protein Food Company</span>, we know that animal protein production demands and supply are dynamic.
                     </p>
-                    <p className='pages-text'>
+                    <p className='pages-text width-70'>
                         For this reason, we are in constant contact with producers from <span className='bold'>Europe,
                         Brazil, Argentina, Australia, Paraguay, Uruguay, and the USA.</span>, in this way supplying <span className='bold'>Europe </span>
                         and countries like <span className='bold'>China, Peru, Thailand, Russia, Hong Kong, the USA, UAE, Brazil, Africa,
@@ -37,7 +37,7 @@ const Markets = () => {
                     </p>
                 </div>
             </div>
-            <div className="markets-text">
+            <div className="markets-text container">
                 <p>
                     In the case of fish and shellfish, we are working with suppliers from countries like Argentina, China, Peru, Chile, Indonesia, and the USA; to provide to our clients in Africa, Europe, Russia, and Japan.
                 </p>

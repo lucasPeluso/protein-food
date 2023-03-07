@@ -5,7 +5,7 @@ import '../styles/components/pages/Contact.css'
 const Contact = () => {
     return (
         <div className='contact'>
-            <form className="contact-form">
+            <form className="contact-form animate__animated animate__pulse container">
                 <h1 className='contact-title'>CONTACT US</h1>
                 <hr className='contact-hr'/>
                 <input className="contact__input" type="text" name="name" placeholder="Enter your name" title="El nombre sólo acepta letras y espaciones en blanco" pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$" required />

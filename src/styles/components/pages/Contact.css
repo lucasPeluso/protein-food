@@ -86,8 +86,11 @@
 }
 
 
-@media screen and (min-width: 768px) {
-    .modal__contact {
-        width: 600px;
+@media screen and (min-width: 1024px) {
+
+    .contact-form {
+        margin-top: 120px;
+        height: 60%;
     }
+    
 }

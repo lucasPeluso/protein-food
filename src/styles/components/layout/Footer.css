@@ -55,7 +55,21 @@
     text-decoration: underline;
 }
 
-.logo {
+.logo-footer {
     width: 96px;
     height: 49px;
+}
+
+@media screen and (min-width: 768px) {
+    
+    .footer__author {
+        margin-top: 60px;
+    }
+
+    .footer__flex {
+        flex-direction: row;
+        justify-content: center;
+        gap: 64px;
+    }
+
 }

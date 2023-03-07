@@ -1,5 +1,6 @@
 import React from 'react'
-import Logo from '../assets/LogoProtein.png'
+import Logo from '../assets/Logo.png'
+import { NavLink } from "react-router-dom";
 
 import '../styles/components/layout/Footer.css'
 
@@ -8,10 +9,10 @@ const Footer = () => {
     return (
         <footer className="footer">
             <div className="footer__flex">
-                <div className="logo">
-                    <a href="#home">
+                <div className="logo-footer">
+                    <NavLink to="/">
                         <img src={Logo} alt="Logo Protein Food" />
-                    </a>
+                    </NavLink>
                 </div>  
                 <div className='footer__flex-contact-join'>
                     <h4 className="text-start color-white underline">CONTACT US</h4>
@@ -29,12 +30,12 @@ const Footer = () => {
                     </svg>
                 </div>
                 <nav className='footer__flex-links'>
-                    <a data-nav="home" href="#home">Home</a>
-                    <a data-nav="mision" href="#mision">About Us</a>
-                    <a data-nav="co-founders" href="#values">Values</a>
-                    <a data-nav="co-founders" href="#values">Markets</a>
-                    <a data-nav="co-founders" href="#values">Products</a>
-                    <a data-nav="contact" href="#contact">Contact</a>
+                    <NavLink to="/">Home</NavLink>
+                    <NavLink to="aboutus"> About Us</NavLink>
+                    <NavLink to="products">Products</NavLink>
+                    <NavLink to="markets">Markets</NavLink>
+                    <NavLink to="values">Values</NavLink>
+                    <NavLink to="contact">Contact</NavLink>
                 </nav>
             </div>
 

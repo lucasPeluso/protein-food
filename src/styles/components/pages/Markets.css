@@ -27,3 +27,21 @@
     gap: 16px;
     padding: 30px 16px 20px;
 }
+
+@media screen and (min-width: 1024px) { 
+
+    .markets-flags__countries {
+        justify-content: flex-start;
+    }
+
+    .markets-flags__groups {
+        flex-direction: row;
+        justify-content: center;
+        gap: 100px;
+    }
+
+    .markets-text {
+        padding-bottom: 40px;
+    }
+
+}

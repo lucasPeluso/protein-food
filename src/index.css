@@ -73,7 +73,7 @@ small {
 }
 
 .bold {
-    font-weight: 700;
+    font-weight: 500;
 }
 
 .border-pink {
@@ -90,11 +90,11 @@ small {
 
 .btn {
     border: 2px solid var(--blue-dark);
-    border-radius: 16px;
+    border-radius: 8px;
     cursor: pointer;
-    padding: 20px 40px;
+    padding: 16px 40px;
     letter-spacing: 1px;
-    font-weight: bold;
+    font-weight: 400;
     text-align: center;
     text-decoration: none;
     color: var(--white);
@@ -110,7 +110,7 @@ small {
 .container {
     margin-left: auto;
     margin-right: auto;
-    max-width: 1200px;
+    max-width: 1040px;
 }
 
 .color-blue-dark {
@@ -173,4 +173,28 @@ small {
 
 .text-start {
     text-align: start;
+}
+
+@media screen and (min-width: 1024px) { 
+    .pages-flex {
+        margin: auto;
+        left: 0;
+        right: 0;
+        gap: 16px;
+        padding-top: 120px;
+    }
+
+    .pages-text {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .pages-titles {
+        font-size: 64px;
+        line-height: 68px;
+    }
+
+    .width-70 {
+        width: 70%;
+    }
 }

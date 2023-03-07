@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState }  from 'react';
 import Logo from '../assets/Logo.png'
 import Switch from '../assets/Switch.png'
 import { NavLink } from "react-router-dom";
@@ -7,6 +7,8 @@ import { NavLink } from "react-router-dom";
 import '../styles/components/layout/Navbar.css'
 
 const Navbar = () => {
+
+    // const [ isActive, setIsActive ] = useState(false)
     // ((d) => {
     //     const btnMenu = d.getElementsByClassName("menu-btn"),
     //         menu = d.getElementsByClassName("menu");

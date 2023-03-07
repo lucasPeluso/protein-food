@@ -11,7 +11,7 @@ header{
     display: flex; 
     justify-content: space-between; 
     align-items: center;
-    height: 80px;
+    height: 49px;
 }
 
 .header-container__logo-menu {
@@ -95,6 +95,10 @@ header{
         box-shadow: 83px 83px 47px rgba(22, 19, 32, 0.05), 47px 47px 40px rgba(22, 19, 32, 0.05), 21px 21px 29px rgba(22, 19, 32, 0.09), 5px 5px 16px rgba(22, 19, 32, 0.1), 0px 0px 0px rgba(22, 19, 32, 0.1);
         padding: 20px 8px;
         z-index: 100000;
+    }
+
+    .header-container {
+        height: 100%;
     }
 
     .header-container__logo-menu {

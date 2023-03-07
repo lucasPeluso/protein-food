@@ -2,8 +2,8 @@
 
 /* *********** Custom Properties********** */
 :root {
-    --blue-dark: #1F1B2D;
-    --blue-dark-10: #1F1B2D10;
+    --blue-dark: #16213E;
+    --blue-dark-10: #16213E10;
     --blue-light: #007BFF;
     --gray: #8D8D8D;
     --text-color: #343A40;
@@ -91,7 +91,6 @@ small {
 .btn {
     border: 2px solid var(--blue-dark);
     border-radius: 8px;
-    cursor: pointer;
     padding: 16px 40px;
     letter-spacing: 1px;
     font-weight: 400;

@@ -1,8 +1,8 @@
 import React, { useState }  from 'react';
 import Logo from '../assets/Logo.png'
 
-import ES from '../assets/es.svg'
-import EN from '../assets/en.svg'
+import ES from '../assets/ES.svg'
+import EN from '../assets/EN.svg'
 
 import { NavLink } from "react-router-dom";
 

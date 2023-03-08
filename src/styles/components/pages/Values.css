@@ -24,7 +24,7 @@
 
 .values-value {
     width: 280px;
-    height: 350px;
+    height: 380px;
     background: #F5F4F8;
     border: 8px solid #EEECF4;
     box-shadow: 83px 83px 47px rgba(22, 19, 32, 0.01), 47px 47px 40px rgba(22, 19, 32, 0.05), 21px 21px 29px rgba(22, 19, 32, 0.09), 5px 5px 16px rgba(22, 19, 32, 0.1), 0px 0px 0px rgba(22, 19, 32, 0.1);
@@ -51,7 +51,7 @@
     color: var(--blue-dark);
 }
 
-@media screen and (min-width: 1024px) { 
+@media screen and (min-width: 768px) { 
     .values-tic {
         gap: 16px;
         align-items: center;

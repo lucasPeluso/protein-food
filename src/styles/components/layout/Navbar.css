@@ -1,3 +1,19 @@
+.btn-lng {
+    display: flex;
+    gap: 8px;
+}
+
+.btn-lng-flex {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 6px;
+    border: none;
+    background-color: var(--blue-dark);
+    color: var(--white);
+    cursor: pointer;
+}
+
 
 header{
     position: fixed;
@@ -26,9 +42,9 @@ header{
 }
 
 .menu {
-    position: fixed;
+    position: absolute;
     left: 0;
-    top: var(--header-heigth-sm);
+    top: var(--header-height-sm);
     width: 100%;
     height: auto;
     display: flex;
@@ -62,8 +78,8 @@ header{
 .menu-toggle {
     display: flex;
     flex-direction: column;
-    margin-left: 24px;
     cursor: pointer;
+    margin-left: 16px;
 }
 
 .menu-toggle span {
@@ -91,21 +107,11 @@ header{
     display: none;
 }
 
-.switch {
-    width: 56px;
-    height: 16px;
-}
-
-.switch__img {
-    margin-bottom: 2px;
-}
-
-
 @media screen and (min-width: 1024px) {
     header{
         position: fixed;
         width: 100%;
-        height: 120px;
+        height: 100px;
         background-color: var(--blue-dark);
         box-shadow: 83px 83px 47px rgba(22, 19, 32, 0.05), 47px 47px 40px rgba(22, 19, 32, 0.05), 21px 21px 29px rgba(22, 19, 32, 0.09), 5px 5px 16px rgba(22, 19, 32, 0.1), 0px 0px 0px rgba(22, 19, 32, 0.1);
         padding: 20px 8px;
@@ -144,11 +150,13 @@ header{
         height: 100%;
         flex-direction: row;
         justify-content: center;
+        transform: translateX(0);
         gap: 16px;
-        opacity: 1;
-        pointer-events: auto;
         background-color: var(--blue-dark);
-        list-style: none;
+    }
+
+    .menu.open {
+        transform: translateX(0);
     }
 
     .menu a {
@@ -190,15 +198,5 @@ header{
 
     .menu-toggle {
         display: none;
-    }
-
-    .switch {
-        width: 90px;
-        height: 24px;
-    }
-
-    .switch__img {
-        width: 90px;
-        height: 24px;
     }
 }

@@ -6,83 +6,95 @@ import ValuesImg from '../assets/values-img.jpg'
 import TicSVG from '../assets/tic.svg'
 import '../styles/components/pages/Values.css'
 
-
+import { useTranslation } from 'react-i18next';
 
 
 const Values = () => {
+
+    const [ t, i18n ] = useTranslation("global")
+
     return (
         <div>
             <div className='pages-div'>
                 <img className='values-img' src={ValuesImg} alt="Values" />
                 <div className='pages-flex container'>
-                    <h1 className='pages-titles animate__animated animate__slideInLeft'>OUR VALUES</h1>
+                    <h1 className='pages-titles animate__animated animate__slideInLeft'>{t("values.values")}</h1>
                     <div className="values-tic">
                         <img src={TicSVG} alt="Tic" />                        
-                        <p className='pages-text'>Respect for individuals</p>
+                        <p className='pages-text'>{t("values.respect")}</p>
                     </div>
                     <div className="values-tic">
                         <img src={TicSVG} alt="Tic" />
-                        <p className='pages-text'>Completely focused on Customer Service</p>
+                        <p className='pages-text'>{t("values.completely")}</p>
                     </div>
                     <div className="values-tic">
                         <img src={TicSVG} alt="Tic" />
-                        <p className='pages-text'>Striving for excellence</p>
+                        <p className='pages-text'>{t("values.striving")}</p>
                     </div>
                     <div className="values-tic">
                         <img src={TicSVG} alt="Tic" />
-                        <p className='pages-text'>Honesty and Solidarity</p>
+                        <p className='pages-text'>{t("values.honesty")}</p>
                     </div>
                     <div className="values-tic">
                         <img src={TicSVG} alt="Tic" />
-                        <p className='pages-text'>Patience and Camaraderie</p>
+                        <p className='pages-text'>{t("values.patience")}</p>
                     </div>
                     <div className="values-tic">
                         <img src={TicSVG} alt="Tic" />
-                        <p className='pages-text'>Effectiveness</p>
+                        <p className='pages-text'>{t("values.effectiveness")}</p>
                     </div>
                 </div>
             </div>
             <div className="values-flex">
                 <div className="values-value">
                     <div className="values-value__text">
-                        <h2 className="values-value__title">VISION</h2>
+                        <h2 className="values-value__title">{t("values.vision")}</h2>
                         <hr className='values-hr' />
                         <div className='values-value__text-p'>
                             <p>
-                                Our vision is that<span className='bold'> our clients identify with us </span>and understand the importance of our ethics and values.
+                                {t("values.ourvision")}
+                                <span className='bold'>{t("values.ourclients")}</span>
+                                {t("values.and")}
                             </p>
                             <p>
-                                We seek to <span className='bold'> innovate, continuously improve, and go a step further </span>in everything 
-                                we do to exceed the expectations of our clients and suppliers.
+                                {t("values.weseek")}
+                                <span className='bold'>{t("values.innovate")}</span>
+                                {t("values.in")}
                             </p>
                         </div>
                     </div>
                 </div>
                 <div className="values-value">
                     <div className="values-value__text">
-                        <h2 className="values-value__title">MISSION</h2>
+                        <h2 className="values-value__title">{t("values.mission")}</h2>
                         <hr className='values-hr' />
                         <div className='values-value__text-p'>
                             <p>
-                                Our mission is to become one of<span className='bold'> the best trading companies </span>for our clients and employees,
-                                offering<span className='bold'> the best tools to simplify </span>business processes.
+                                {t("values.ourmission")}
+                                <span className='bold'>{t("values.thebest")}</span>
+                                {t("values.forour")}
+                                <span className='bold'>{t("values.thebesttools")}</span>
+                                {t("values.business")}
                             </p>
                         </div>
                     </div>
                 </div>
                 <div className="values-value">
                     <div className="values-value__text">
-                        <h2 className="values-value__title">OBJECTIVES</h2>
+                        <h2 className="values-value__title">{t("values.objectives")}</h2>
                         <hr className='values-hr' />
                         <div className='values-value__text-p'>
                             <p>
-                                To <span className='bold'>achieve</span> a good market share and be close to our customers and suppliers.
+                                <span className='bold'>{t("values.toachieve")}</span>
+                                {t("values.agood")}
                             </p>
                             <p>
-                                To <span className='bold'>ensure</span> that our staff can develop and be motivated to continuously learn.
+                                <span className='bold'>{t("values.toensure")}</span>
+                                {t("values.that")}
                             </p>
                             <p>
-                                To <span className='bold'>carry out</span> business in a suitable controlled environment.
+                                <span className='bold'>{t("values.tocarry")}</span>
+                                {t("values.businessin")}
                             </p>
                         </div>
                     </div>

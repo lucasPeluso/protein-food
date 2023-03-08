@@ -1,12 +1,21 @@
 import React, { useState }  from 'react';
 import Logo from '../assets/Logo.png'
-import Switch from '../assets/Switch.png'
+
+import ES from '../assets/es.svg'
+import EN from '../assets/en.svg'
+
 import { NavLink } from "react-router-dom";
-// import menuOpenClose from '../utils/menuOpenClose'
+
+
+
+
+import { useTranslation } from 'react-i18next';
 
 import '../styles/components/layout/Navbar.css'
 
 const Navbar = () => {
+
+    const [ t, i18n ] = useTranslation("global")
 
     const [ isOpen, setIsOpen ] = useState(false)
 
@@ -24,18 +33,25 @@ const Navbar = () => {
                         <span></span>
                     </div>
                     <nav>
-                        <ul className={`menu ${isOpen && "open"}`}>
-                            <li><NavLink to="/" style={({ isActive }) => ({ borderBottom: isActive ? '3px solid rgb(255, 255, 255)' : '' })}>Home</NavLink></li>
-                            <li><NavLink to="aboutus" style={({ isActive }) => ({ borderBottom: isActive ? '3px solid rgb(255, 255, 255)' : '' })}>About Us</NavLink></li>
-                            <li><NavLink to="products" style={({ isActive }) => ({ borderBottom: isActive ? '3px solid rgb(255, 255, 255)' : '' })}>Products</NavLink></li>
-                            <li><NavLink to="markets" style={({ isActive }) => ({ borderBottom: isActive ? '3px solid rgb(255, 255, 255)' : '' })}>Markets</NavLink></li>
-                            <li><NavLink to="values" style={({ isActive }) => ({ borderBottom: isActive ? '3px solid rgb(255, 255, 255)' : '' })}>Values</NavLink></li>
-                            <li><NavLink to="contact" style={({ isActive }) => ({ borderBottom: isActive ? '3px solid rgb(255, 255, 255)' : '' })}>Contact</NavLink></li>
-                        </ul>
+                        <div className={`menu ${isOpen && "open"}`}>
+                            <NavLink to="/" style={({ isActive }) => ({ borderBottom: isActive ? '3px solid rgb(255, 255, 255)' : '' })}>{t("header.home")}</NavLink>
+                            <NavLink to="aboutus" style={({ isActive }) => ({ borderBottom: isActive ? '3px solid rgb(255, 255, 255)' : '' })}>{t("header.aboutus")}</NavLink>
+                            <NavLink to="products" style={({ isActive }) => ({ borderBottom: isActive ? '3px solid rgb(255, 255, 255)' : '' })}>{t("header.products")}</NavLink>
+                            <NavLink to="markets" style={({ isActive }) => ({ borderBottom: isActive ? '3px solid rgb(255, 255, 255)' : '' })}>{t("header.markets")}</NavLink>
+                            <NavLink to="values" style={({ isActive }) => ({ borderBottom: isActive ? '3px solid rgb(255, 255, 255)' : '' })}>{t("header.values")}</NavLink>
+                            <NavLink to="contact" style={({ isActive }) => ({ borderBottom: isActive ? '3px solid rgb(255, 255, 255)' : '' })}>{t("header.contact")}</NavLink>
+                        </div>
                     </nav>
                 </div>
-                <div className='switch'>
-                    <img className='switch__img' src={Switch} alt="" />
+                <div className='btn-lng'>
+                    <button className='btn-lng-flex' onClick={() => i18n.changeLanguage("en")}>
+                        <img src={EN} alt="EN" />
+                        <span>EN</span>
+                    </button>
+                    <button className='btn-lng-flex' onClick={() => i18n.changeLanguage("es")}>
+                        <img src={ES} alt="ES" />
+                        <span>ES</span>
+                    </button>
                 </div>
             </section>
         </header>

@@ -1,5 +1,7 @@
 import React from 'react';
 
+import { useTranslation } from 'react-i18next';
+
 import ButtonContact from '../components/ButtonContact';
 
 import MarketsImg from '../assets/markets-img.jpg'
@@ -20,42 +22,33 @@ import UsaSVG from '../assets/USA.svg'
 import '../styles/components/pages/Markets.css'
 
 const Markets = () => {
+
+    const [ t, i18n ] = useTranslation("global")
+
     return (
         <div>
             <div className='pages-div'>
                 <img className='markets-img' src={MarketsImg} alt="Markets" />
                 <div className='pages-flex container'>
-                    <h1 className='pages-titles animate__animated animate__slideInLeft'>MARKETS</h1>
+                    <h1 className='pages-titles animate__animated animate__slideInLeft'>{t("markets.markets")}</h1>
                     <p className='pages-text width-70'>
-                        At <span className='bold'>Protein Food Company</span>, we know that animal protein production demands and supply are dynamic.
+                        {t("markets.at")} 
+                        <span className='bold'>{t("markets.protein")}</span>
+                        {t("markets.weknow")}
                     </p>
                     <p className='pages-text width-70'>
-                        For this reason, we are in constant contact with producers from <span className='bold'>Europe,
-                        Brazil, Argentina, Australia, Paraguay, Uruguay, and the USA.</span>, in this way supplying <span className='bold'>Europe </span>
-                        and countries like <span className='bold'>China, Peru, Thailand, Russia, Hong Kong, the USA, UAE, Brazil, Africa,
-                        Singapore, the Philippines, and the Caribbean.</span>
+                        {t("markets.forthis")}
+                        <span className='bold'>{t("markets.europebrazil")}</span>
+                        {t("markets.inthis")}
+                        <span className='bold'>{t("markets.china")}</span>
                     </p>
                 </div>
             </div>
             <div className="markets-text container">
-                <p>
-                    In the case of fish and shellfish, we are working with suppliers from countries like Argentina, China, Peru, Chile, Indonesia, and the USA; to provide to our clients in Africa, Europe, Russia, and Japan.
-                </p>
-                <p>
-                    It is also expected that developing countries generate a substantial increase in the global
-                    production of Dairy products. Protein Food Company works with leading exporters of milk
-                    powders and cheeses around the world like the United States, European Union, New
-                    Zealand, Australia, and Argentina, to supply the demands of global consumption in these
-                    products.
-                </p>
-                <p>
-                    Another product that is taking center stage in world food consumption, is dried fruit, which is being incorporated into the diets of people as a source of nutrients, protein, fiber, vitamins, and minerals. The main exporting countries where we buy these products are
-                    China, the United Kingdom, India, and Argentina, to supply markets like the EU, Japan,
-                    Indonesia, Singapore, and Hong Kong.
-                </p>
-                <p>
-                    <span className='bold'>We work regularly in the following markets:</span>
-                </p>
+                <p>{t("markets.inthe")}</p>
+                <p>{t("markets.itis")}</p>
+                <p>{t("markets.another")}</p>
+                <p className='bold'>{t("markets.wework")}</p>
             </div>
             <div className="markets-flags__groups">
                 <div className="markets-flags__group">
@@ -65,11 +58,11 @@ const Markets = () => {
                     </div>
                     <div className="markets-flags__countries">
                         <img src={BrazilSVG} alt="Brazil" />
-                        <p>Brazil</p>
+                        <p>{t("markets.brazil")}</p>
                     </div>
                     <div className="markets-flags__countries">
                         <img src={FlagSVG} alt="Caribbean" />
-                        <p>Caribbean</p>
+                        <p>{t("markets.caribbean")}</p>
                     </div>
                     <div className="markets-flags__countries">
                         <img src={ChileSVG} alt="Chile" />
@@ -83,7 +76,7 @@ const Markets = () => {
                 <div className="markets-flags__group">
                     <div className="markets-flags__countries">
                         <img src={EuropeSVG} alt="Europe" />
-                        <p>Europe</p>
+                        <p>{t("markets.europe")}</p>
                     </div>
                     <div className="markets-flags__countries">
                         <img src={IndiaSVG} alt="India" />
@@ -95,17 +88,17 @@ const Markets = () => {
                     </div>
                     <div className="markets-flags__countries">
                         <img src={RussiaSVG} alt="Russia" />
-                        <p>Russia</p>
+                        <p>{t("markets.russia")}</p>
                     </div>
                     <div className="markets-flags__countries">
                         <img src={SouthAfricaSVG} alt="South Africa" />
-                        <p>South Africa</p>
+                        <p>{t("markets.southafrica")}</p>
                     </div>
                 </div>
                 <div className="markets-flags__group">
                     <div className="markets-flags__countries">
                         <img src={FlagSVG} alt="South America" />
-                        <p>South America</p>
+                        <p>{t("markets.southamerica")}</p>
                     </div>
                     <div className="markets-flags__countries">
                         <img src={UaeSVG} alt="UAE" />
@@ -121,7 +114,7 @@ const Markets = () => {
                     </div>
                     <div className="markets-flags__countries">
                         <img src={FlagSVG} alt="Western Africa" />
-                        <p>Western Africa</p>
+                        <p>{t("markets.westernafrica")}</p>
                     </div>
                 </div>
             </div>

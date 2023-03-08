@@ -9,27 +9,9 @@ const Contact = () => {
 
     const [ t, i18n ] = useTranslation("global");
 
-
-    // ((d) => {
-    //     const form = d.querySelector(".contact-form")
-
-    
-    //     form.onClick("submit", (e) => {
-    //         e.preventDefault();
-    //         fetch("https://formsubmit.co/ajax/lucaspelusoweb@gmail.com", {
-    //             method: "POST",
-    //             body: new FormData(e.target),
-    //         })
-    //         .then((json) => {
-    //             console.log(json);
-    //             form.reset();
-    //         })
-    //     });
-    // })(document);
-
     return (
         <div className='contact'>
-            <form target="_blank" action="https://formsubmit.co/lucaspelusoweb@gmail.com" method="POST" className="contact-form animate__animated animate__pulse container">
+            <form target="_blank" action="https://formsubmit.co/lucaas.p97@gmail.com" method="POST" className="contact-form animate__animated animate__pulse container">
                 <h1 className='contact-title'>{t("contact.contact")}</h1>
                 <hr className='contact-hr'/>
                 <input className="contact__input" type="text" name="name" placeholder={t("contact.name")} title="El nombre sólo acepta letras y espaciones en blanco" pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$" required />

@@ -4,10 +4,10 @@
 :root {
     --blue-dark: #0f0f11;
     --blue-dark-10: #16213E10;
-    --blue-light: #007BFF;
+    --blue-light: hsl(211, 88%, 13%);
     --gray: #8D8D8D;
     --text-color: #343A40;
-    --pink:  #DC3545;
+    --pink:  #ad2c39;
     --white: #F5F4F8;
     --yellow: #B38700;
     --font: "Poppins", sans-serif;

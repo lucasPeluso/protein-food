@@ -46,6 +46,7 @@
     margin: 40px auto 30px;
     font-size: 28px;
     line-height: 32px;
+    width: min-content;
     color: var(--blue-dark);
 }
 

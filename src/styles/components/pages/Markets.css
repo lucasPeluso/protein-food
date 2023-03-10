@@ -25,11 +25,19 @@
     display: flex;
     flex-direction: column;
     gap: 16px;
-    padding: 30px 16px 20px;
+    padding: 0px 16px 20px;
 }
 
 .markets-wework {
     margin-top: 24px;
+}
+
+
+.markets-aboutus-title {
+    margin: 40px auto 8px;
+    font-size: 28px;
+    line-height: 32px;
+    color: var(--blue-dark);
 }
 
 @media screen and (min-width: 768px) { 
@@ -46,6 +54,12 @@
 
     .markets-text {
         padding-bottom: 40px;
+    }
+
+    .markets-aboutus-title {
+        font-size: 32px;
+        line-height: 32px;
+        letter-spacing: 1px;
     }
 
 }

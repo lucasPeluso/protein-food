@@ -32,7 +32,7 @@ const Products = () => {
                     </p>
                 </div>         
             </div>
-            <h2 className="products-title">{t("products.products")}</h2>
+            <h2 className="products-title animate__animated animate__slideInLeft">{t("products.productsmin")}</h2>
             <div className="products-items container">
                 <div className="products-item">
                     <div className="products-item__div border-pink">

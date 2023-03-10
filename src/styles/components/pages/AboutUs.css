@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     gap: 16px;
-    padding: 40px 16px 0;
+    padding: 0 16px;
 }
 
 .aboutus-img {

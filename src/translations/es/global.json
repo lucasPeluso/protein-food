@@ -9,7 +9,7 @@
     },
 
     "footer": {
-        "contactus": "Contactanos",
+        "contactus": "Contáctenos",
         "joinus": "Seguinos",
         "home" : "Inicio",
         "aboutus" : "Sobre Nosotros",
@@ -21,7 +21,7 @@
 
     "buttonContact": {
         "formore" : "Para más información:",
-        "contactus" : "Contactanos"
+        "contactus" : "Contáctenos"
     },
 
     "home": {
@@ -49,6 +49,7 @@
     
     "aboutus": {
         "aboutus": "SOBRE NOSOTROS",
+        "aboutusmin": "Sobre Nosotros",
         "protein": "Protein Food Company es una empresa de comercio internacional ",
         "that": "que nació con el propósito de agregar valor adicional a los importadores y exportadores de alimentos de todo el mundo,",
         "making": " haciendo que el proceso de compra y venta ",
@@ -69,6 +70,7 @@
 
     "products": {
         "products": "PRODUCTOS",
+        "productsmin": "Productos",
         "meat": "CARNE",
         "dried": "FRUTOS SECOS",
         "dairy": "PRODUCTOS LÁCTEOS",
@@ -105,6 +107,7 @@
 
     "markets": {
         "markets": "MERCADOS",
+        "marketsmin": "Mercados",
         "at": "En",
         "protein": " Protein Food Company, ",
         "weknow": "sabemos que la oferta y la demanda de proteína animal son dinámicas.",
@@ -127,6 +130,7 @@
 
     "values": {
         "values": "NUESTROS VALORES",
+        "valuesmin": "Nuestros Valores",
         "respect": "Respeto por las personas",
         "completely": "Completamente enfocados en el Servicio al Cliente",
         "striving": "Esforzarse por la excelencia",
@@ -156,7 +160,7 @@
     },
 
     "contact": {
-        "contact": "CONTACTANOS",
+        "contact": "Contáctenos",
         "name": "Ingrese su nombre",
         "email": "Ingrese su email",
         "comment": "Deje su comentario",

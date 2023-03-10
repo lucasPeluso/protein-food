@@ -45,6 +45,7 @@ const Markets = () => {
                 </div>
             </div>
             <div className="markets-text container">
+                <h3 className="markets-aboutus-title animate__animated animate__slideInLeft">{t("markets.marketsmin")}</h3>
                 <p>{t("markets.inthe")}</p>
                 <p>{t("markets.itis")}</p>
                 <p>{t("markets.another")}</p>

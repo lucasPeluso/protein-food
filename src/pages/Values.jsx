@@ -45,7 +45,9 @@ const Values = () => {
                     </div>
                 </div>
             </div>
+            <h3 className="values-title animate__animated animate__slideInDown">{t("values.valuesmin")}</h3>
             <div className="values-flex">
+                
                 <div className="values-value">
                     <div className="values-value__text">
                         <h2 className="values-value__title">{t("values.vision")}</h2>

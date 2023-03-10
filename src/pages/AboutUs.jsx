@@ -27,6 +27,7 @@ const AboutUs = () => {
                 </div>
             </div>
             <div className="aboutus-flex container">
+                <h2 className="markets-aboutus-title animate__animated animate__slideInLeft">{t("aboutus.aboutusmin")}</h2>
                 <p>
                     {t("aboutus.our")}
                     <span className='bold'>{t("aboutus.great")}</span>

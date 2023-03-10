@@ -11,7 +11,7 @@ const Contact = () => {
 
     return (
         <div className='contact'>
-            <form target="_blank" action="https://formsubmit.co/operaciones@proteinfoodllc.com" method="POST" className="contact-form animate__animated animate__pulse container">
+            <form target="_blank" action="https://formsubmit.co/rodrigueznicole95@gmail.com" method="POST" className="contact-form animate__animated animate__pulse container">
                 <h1 className='contact-title'>{t("contact.contact")}</h1>
                 <hr className='contact-hr'/>
                 <input className="contact__input" type="text" name="name" placeholder={t("contact.name")} title="El nombre sólo acepta letras y espaciones en blanco" pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$" required />

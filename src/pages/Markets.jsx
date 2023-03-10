@@ -48,7 +48,7 @@ const Markets = () => {
                 <p>{t("markets.inthe")}</p>
                 <p>{t("markets.itis")}</p>
                 <p>{t("markets.another")}</p>
-                <p className='bold'>{t("markets.wework")}</p>
+                <p className='markets-wework bold'>{t("markets.wework")}</p>
             </div>
             <div className="markets-flags__groups">
                 <div className="markets-flags__group">

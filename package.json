@@ -9,6 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@emailjs/browser": "^3.10.0",
     "animate.css": "^4.1.1",
     "i18next": "^22.4.11",
     "react": "^18.2.0",

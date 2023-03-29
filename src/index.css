@@ -5,7 +5,7 @@
     --blue-dark: #0f0f11;
     --blue-dark-10: #16213E10;
     --blue-light: hsl(211, 88%, 13%);
-    --gray: #8D8D8D;
+    --gray: #9d9d9d;
     --text-color: #343A40;
     --pink:  #ad2c39;
     --white: #F5F4F8;
@@ -96,7 +96,7 @@ small {
     font-weight: 400;
     text-align: center;
     text-decoration: none;
-    color: var(--white);
+    color: var(--gray);
     background-color: var(--blue-dark);
     transition: all .3s ease-out;
 }
@@ -119,6 +119,10 @@ small {
 
 .color-blue-light {
     color: var(--blue-light);
+}
+
+.color-gray {
+    color: var(--gray);
 }
 
 .color-pink {
@@ -167,7 +171,7 @@ small {
 .pages-titles {
     font-size: 24px;
     line-height: 24px;
-    color: var(--white)
+    color: var(--gray)
 }
 
 .text-start {

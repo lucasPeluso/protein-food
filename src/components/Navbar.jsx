@@ -1,5 +1,5 @@
 import React, { useState }  from 'react';
-import Logo from '../assets/Logo.png'
+import Logo from '../assets/logoproteinfood.svg'
 
 import ES from '../assets/ES.svg'
 import EN from '../assets/EN.svg'
@@ -34,12 +34,12 @@ const Navbar = () => {
                     </div>
                     <nav>
                         <div className={`menu ${isOpen && "open"}`}>
-                            <NavLink to="/" style={({ isActive }) => ({ borderBottom: isActive ? '3px solid rgb(255, 255, 255)' : '' })}>{t("header.home")}</NavLink>
-                            <NavLink to="aboutus" style={({ isActive }) => ({ borderBottom: isActive ? '3px solid rgb(255, 255, 255)' : '' })}>{t("header.aboutus")}</NavLink>
-                            <NavLink to="products" style={({ isActive }) => ({ borderBottom: isActive ? '3px solid rgb(255, 255, 255)' : '' })}>{t("header.products")}</NavLink>
-                            <NavLink to="markets" style={({ isActive }) => ({ borderBottom: isActive ? '3px solid rgb(255, 255, 255)' : '' })}>{t("header.markets")}</NavLink>
-                            <NavLink to="values" style={({ isActive }) => ({ borderBottom: isActive ? '3px solid rgb(255, 255, 255)' : '' })}>{t("header.values")}</NavLink>
-                            <NavLink to="contact" style={({ isActive }) => ({ borderBottom: isActive ? '3px solid rgb(255, 255, 255)' : '' })}>{t("header.contact")}</NavLink>
+                            <NavLink to="/" style={({ isActive }) => ({ borderBottom: isActive ? '3px solid var(--gray)' : '' })}>{t("header.home")}</NavLink>
+                            <NavLink to="aboutus" style={({ isActive }) => ({ borderBottom: isActive ? '3px solid var(--gray)' : '' })}>{t("header.aboutus")}</NavLink>
+                            <NavLink to="products" style={({ isActive }) => ({ borderBottom: isActive ? '3px solid var(--gray)' : '' })}>{t("header.products")}</NavLink>
+                            <NavLink to="markets" style={({ isActive }) => ({ borderBottom: isActive ? '3px solid var(--gray)' : '' })}>{t("header.markets")}</NavLink>
+                            <NavLink to="values" style={({ isActive }) => ({ borderBottom: isActive ? '3px solid var(--gray)' : '' })}>{t("header.values")}</NavLink>
+                            <NavLink to="contact" style={({ isActive }) => ({ borderBottom: isActive ? '3px solid var(--gray)' : '' })}>{t("header.contact")}</NavLink>
                         </div>
                     </nav>
                 </div>

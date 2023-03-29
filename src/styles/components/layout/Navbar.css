@@ -10,7 +10,7 @@
     padding: 6px;
     border: none;
     background-color: var(--blue-dark);
-    color: var(--white);
+    color: var(--gray);
     cursor: pointer;
 }
 
@@ -71,7 +71,7 @@ header{
     letter-spacing: 1px;
     text-align: start;
     text-decoration: none;
-    color: var(--white);
+    color: var(--gray);
     transition: .2s;
 }
 
@@ -85,7 +85,7 @@ header{
 .menu-toggle span {
     width: 30px;
     height: 4px;
-    background: var(--white);
+    background: var(--gray);
     margin-bottom: 5px;
     transform-origin: 6px 0px;
     transition: all .2s linear;
@@ -167,13 +167,12 @@ header{
         font-weight: 400;
         text-align: center;
         text-decoration: none;
-        color: var(--white);
         position: relative;    
     }
 
     .menu a::after {
         content: "";
-        background-color: var(--white);
+        background-color: var(--gray);
         position: absolute;
         left: 0;
         bottom: -3.5px;
@@ -193,7 +192,7 @@ header{
 
     .menu a:hover {
         background-color: transparent;
-        color: var(--white);
+        color: var(--gray);
     }
 
     .menu-toggle {

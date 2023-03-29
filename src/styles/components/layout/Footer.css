@@ -15,7 +15,7 @@
 }
 
 .footer a:hover {
-    color: var(--yellow);
+    color: var(--white);
 }
 
 .footer__author {
@@ -50,7 +50,7 @@
 }
 
 .footer__flex-links a{
-    color: var(--white);
+    color: var(--gray);
     font-size: 12px;
     line-height: 16px;
     text-decoration: underline;
@@ -61,7 +61,7 @@
 }
 
 .footer-linkedin-a:hover .footer-linkedin {
-    fill: var(--yellow);
+    fill: var(--white);
 }
 
 .logo-footer {

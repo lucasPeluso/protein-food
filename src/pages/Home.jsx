@@ -96,7 +96,7 @@ const Home = () => {
                         </p>
                         <p>
                             <span className='bold'>{t("home.our")}</span>
-                            {t("home.whit")}
+                            {t("home.with")}
                             <span className='bold'>{t("home.yourorder")}</span>
                         </p>
                     </div>
